@@ -23,4 +23,4 @@ if genero == 1:
 else:
     valor_genero = 5
 
-print(f"Usted, estando en reposo, consume {calcular_calorias_en_reposo(peso, altura, edad, valor_genero)}")
+print(f"Usted, estando en reposo, consume {round(calcular_calorias_en_reposo(peso, altura, edad, valor_genero),2)}")
